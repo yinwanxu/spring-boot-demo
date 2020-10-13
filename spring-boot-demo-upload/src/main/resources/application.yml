@@ -1,0 +1,11 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /demo
+spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      enabled: true
+      location: E:/IdeaComGit/upload/
+      file-size-threshold: 5MB
